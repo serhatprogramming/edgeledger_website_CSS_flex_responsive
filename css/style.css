@@ -51,6 +51,10 @@ img {
   padding: 0 30px;
 }
 
+.navbar.top {
+  background: transparent;
+}
+
 .navbar a {
   color: #fff;
   padding: 10px 20px;
@@ -151,6 +155,29 @@ img {
 
 .callback-form input:focus {
   outline-color: #28a745;
+}
+
+/* Post */
+.post {
+  padding: 50px 30px;
+}
+
+.post h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.post .meta {
+  margin-bottom: 30px;
+}
+
+.post img {
+  width: 300px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 30px;
 }
 
 /* Footer */

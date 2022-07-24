@@ -17,7 +17,7 @@
   </head>
   <body id="home">
     <header class="hero">
-      <div id="navbar" class="navbar">
+      <div id="navbar" class="navbar top">
         <h1 class="logo">
           <span class="text-primary"><i class="fas fa-book-open"></i> Edge</span
           >Ledger
@@ -241,5 +241,16 @@
       </div>
       <p>Copyright &copy; 2022 - EdgeLedger</p>
     </footer>
+    <script>
+      const navbar = document.getElementById("navbar");
+
+      window.onscroll = function () {
+        if (window.pageYOffset > 100) {
+          navbar.classList.remove("top");
+        } else {
+          navbar.classList.add("top");
+        }
+      };
+    </script>
   </body>
 </html>
